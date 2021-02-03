@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include picklist_customization *.css
+recursive-include picklist_customization *.csv
+recursive-include picklist_customization *.html
+recursive-include picklist_customization *.ico
+recursive-include picklist_customization *.js
+recursive-include picklist_customization *.json
+recursive-include picklist_customization *.md
+recursive-include picklist_customization *.png
+recursive-include picklist_customization *.py
+recursive-include picklist_customization *.svg
+recursive-include picklist_customization *.txt
+recursive-exclude picklist_customization *.pyc
